@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="display: flex; flex-direction: column">
+    Fund to the smart contract APP
+    <br />
+    <button id="connectButton" style="width: 200px">Connect</button>
+
+    <label for="ethAmount">ETH Amount</label>
+    <input id="ethAmount" type="text" placeholder="0.1" style="width: 200px" />
+    <button id="fundButton" style="width: 200px">Fund</button>
+    <button id="withdrawButton" style="width: 200px">Withdraw</button>
+    <button id="balanceButton" style="width: 200px">
+      Show Current Balance
+    </button>
+    <span id="currentBalance"></span>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
